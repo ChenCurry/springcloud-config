@@ -44,7 +44,7 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
 #spring配置
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: springcloud-config-dept
   datasource:
